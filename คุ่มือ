@@ -1,0 +1,1 @@
+เปิดเว็บไซต์https://seleniumbase.io/coffee/ ทำการทดสอบโดยการสั่งExpresso 1 แก้ว และ mocha 1 แก้ว ตรวจสอบยอดค่าใช้จ่ายที่เป็นผลรวม จ่ายเงิน ใส่ชื่อ YanakornS อีเมลล์ YanakornS@gmail.comคลิ๊ก checkbox และกดปุ่ม submit และตรวจสอบข้อความด้วย MCP Playwrightc และสร้าง script ทดสอบ

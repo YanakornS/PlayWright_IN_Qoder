@@ -1,0 +1,112 @@
+# Page snapshot
+
+```yaml
+- table [ref=e3]:
+  - rowgroup [ref=e4]:
+    - row "Demo Page SeleniumBase Hover Dropdown Automation Practice" [ref=e5]:
+      - cell "Demo Page" [ref=e6]:
+        - heading "Demo Page" [level=1] [ref=e7]
+      - cell "SeleniumBase" [ref=e8]:
+        - heading "SeleniumBase" [level=2] [ref=e9]
+      - cell "Hover Dropdown" [ref=e10]:
+        - generic [ref=e12]: Hover Dropdown
+      - cell "Automation Practice" [ref=e13]:
+        - heading "Automation Practice" [level=3] [ref=e14]
+    - 'row "Text Input Field: Textarea:" [ref=e15]':
+      - cell "Text Input Field:" [ref=e16]
+      - cell [ref=e17]:
+        - textbox [ref=e18]
+      - cell "Textarea:" [ref=e19]
+      - cell [ref=e20]:
+        - textbox [ref=e21]
+    - 'row "Pre-Filled Text Field: Text... Button: Click Me (Green)" [ref=e22]':
+      - cell "Pre-Filled Text Field:" [ref=e23]
+      - cell "Text..." [ref=e24]:
+        - textbox [ref=e25]: Text...
+      - cell "Button:" [ref=e26]
+      - cell "Click Me (Green)" [ref=e27]:
+        - button "Click Me (Green)" [ref=e28]
+    - 'row "Placeholder Text Field: Read-Only Text Field: The Color is Green" [ref=e29]':
+      - cell "Placeholder Text Field:" [ref=e30]
+      - cell [ref=e31]:
+        - textbox "Placeholder Text Field" [ref=e32]
+      - cell "Read-Only Text Field:" [ref=e33]
+      - cell "The Color is Green" [ref=e34]:
+        - textbox [ref=e35]: The Color is Green
+    - 'row "HTML SVG with rect: Paragraph with Text: This Text is Green" [ref=e36]':
+      - cell "HTML SVG with rect:" [ref=e37]
+      - cell [ref=e38]:
+        - img [ref=e39]
+      - cell "Paragraph with Text:" [ref=e41]:
+        - paragraph [ref=e42]: "Paragraph with Text:"
+      - cell "This Text is Green" [ref=e43]:
+        - paragraph [ref=e44]: This Text is Green
+    - 'row "Input Slider Control: 50 Progress Bar: (80%) 80" [ref=e45]':
+      - cell "Input Slider Control:" [ref=e46]
+      - cell "50" [ref=e47]:
+        - slider [ref=e48]: "80"
+      - 'cell "Progress Bar: (80%)" [ref=e49]':
+        - generic [ref=e50]: "Progress Bar: (80%)"
+      - cell "80" [ref=e51]:
+        - progressbar [ref=e52]
+    - 'row "Select Dropdown: Set to 25% HTML Meter: (25%) 0.25" [ref=e53]':
+      - cell "Select Dropdown:" [ref=e54]
+      - cell "Set to 25%" [ref=e55]:
+        - combobox [ref=e56]:
+          - option "Set to 25%" [selected]
+          - option "Set to 50%"
+          - option "Set to 75%"
+          - option "Set to 100%"
+      - 'cell "HTML Meter: (25%)" [ref=e57]':
+        - generic [ref=e58]: "HTML Meter: (25%)"
+      - cell "0.25" [ref=e59]:
+        - meter [ref=e60]
+    - 'row "Image in iFrame: RadioButton 1: RadioButton 2:" [ref=e61]':
+      - cell "Image in iFrame:" [ref=e62]:
+        - generic [ref=e63]: "Image in iFrame:"
+      - cell [ref=e64]:
+        - iframe [ref=e65]:
+          - img [ref=f1e2]
+        - iframe [ref=e66]:
+          - heading "iFrame Text" [level=4] [ref=f2e2]
+      - cell "RadioButton 1:" [ref=e67]:
+        - text: "RadioButton 1:"
+        - radio [checked] [ref=e68]
+      - cell "RadioButton 2:" [ref=e69]:
+        - text: "RadioButton 2:"
+        - radio [ref=e70]
+    - 'row "CheckBox: CheckBoxes: Pre-Check Box: CheckBox in iFrame:" [ref=e71]':
+      - cell "CheckBox:" [ref=e72]:
+        - text: "CheckBox:"
+        - checkbox [ref=e73]
+      - cell "CheckBoxes:" [ref=e74]:
+        - text: "CheckBoxes:"
+        - checkbox [ref=e75]
+        - checkbox [ref=e76]
+        - checkbox [ref=e77]
+      - cell "Pre-Check Box:" [ref=e78]:
+        - text: "Pre-Check Box:"
+        - checkbox [checked] [ref=e79]
+      - cell "CheckBox in iFrame:" [ref=e80]:
+        - text: "CheckBox in iFrame:"
+        - iframe [ref=e81]:
+          - checkbox [ref=f3e2]
+    - 'row "URL Link: seleniumbase.com Link with Text: SeleniumBase on GitHub" [ref=e82]':
+      - cell "URL Link:" [ref=e83]
+      - cell "seleniumbase.com" [ref=e84]:
+        - link "seleniumbase.com" [ref=e85] [cursor=pointer]:
+          - /url: https://seleniumbase.com
+      - cell "Link with Text:" [ref=e86]
+      - cell "SeleniumBase on GitHub" [ref=e87]:
+        - link "SeleniumBase on GitHub" [ref=e88] [cursor=pointer]:
+          - /url: https://github.com/seleniumbase/SeleniumBase
+    - 'row "SeleniumBase Docs: seleniumbase.io The Demo Page: SeleniumBase Demo Page" [ref=e89]':
+      - cell "SeleniumBase Docs:" [ref=e90]
+      - cell "seleniumbase.io" [ref=e91]:
+        - link "seleniumbase.io" [ref=e92] [cursor=pointer]:
+          - /url: https://seleniumbase.io
+      - cell "The Demo Page:" [ref=e93]
+      - cell "SeleniumBase Demo Page" [ref=e94]:
+        - link "SeleniumBase Demo Page" [ref=e95] [cursor=pointer]:
+          - /url: https://seleniumbase.io/demo_page/
+```
