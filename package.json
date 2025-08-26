@@ -7,6 +7,8 @@
     "test": "playwright test",
     "test:coffee": "playwright test tests/coffee-website.spec.js",
     "test:coffee-headed": "playwright test tests/coffee-website.spec.js --headed",
+    "test:playwright": "playwright test tests/playwright-website.spec.js",
+    "test:playwright-headed": "playwright test tests/playwright-website.spec.js --headed",
     "test:ui": "playwright test --ui",
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug",
@@ -14,7 +16,11 @@
     "test:codegen": "playwright codegen",
     "ui": "playwright test --ui",
     "report": "playwright show-report --port=9324",
-    "report:open": "start playwright-report/index.html"
+    "report:open": "start playwright-report/index.html",
+    "videos:open": "start test-results",
+    "codegen": "playwright codegen",
+    "codegen:playwright": "playwright codegen https://playwright.dev/",
+    "codegen:coffee": "playwright codegen https://seleniumbase.io/coffee/"
   },
   "keywords": [],
   "author": "",

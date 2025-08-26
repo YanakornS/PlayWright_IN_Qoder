@@ -4,11 +4,13 @@
 - `example.spec.js` - Basic Playwright examples
 - `advanced.spec.js` - Advanced test scenarios  
 - `coffee-website.spec.js` - Complete tests for https://seleniumbase.io/coffee
+- `playwright-website.spec.js` - Tests for https://playwright.dev (codegen template) 🆕
 
 ## Quick Start
 1. Install browsers: `npx playwright install`
 2. Run all tests: `run-all-tests.bat` or `npm test`
 3. Run coffee tests only: `run-coffee-tests.bat` or `npm run test:coffee`
+4. Generate new tests: `codegen-playwright.bat` or `npm run codegen:playwright` 🆕
 
 ## Coffee Cart Tests ✅
 Working tests for SeleniumBase Coffee Cart (https://seleniumbase.io/coffee) including:
@@ -27,11 +29,20 @@ Working tests for SeleniumBase Coffee Cart (https://seleniumbase.io/coffee) incl
 ## Commands
 - `npm test` - Run all tests
 - `npm run test:coffee` - Run only coffee website tests
+- `npm run test:playwright` - Run only Playwright.dev tests 🆕
 - `npm run test:coffee-headed` - Run coffee tests with visible browser
+- `npm run test:playwright-headed` - Run Playwright.dev tests with visible browser 🆕
 - `npm run test:headed` - Run with visible browser
 - `npm run ui` - Open interactive UI mode ✨
 - `npm run report` - Show test reports (port 9324) ✨
 - `npm run report:open` - Open report directly in browser ✨
+
+## 🎥 Code Generation (Codegen)
+- `npm run codegen` - Start codegen for any website
+- `npm run codegen:playwright` - Generate tests for Playwright.dev 🆕
+- `npm run codegen:coffee` - Generate tests for Coffee Cart
+- `codegen-playwright.bat` - Batch file for Playwright.dev codegen 🆕
+- `codegen-custom.bat` - Batch file for any website codegen 🆕
 
 ## Easy Access (Batch Files)
 - `open-ui.bat` - Open Playwright UI mode
