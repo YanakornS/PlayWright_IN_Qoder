@@ -1,0 +1,25 @@
+{
+  "name": "playwrightqoder",
+  "version": "1.0.0",
+  "description": "Playwright JavaScript testing project",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:coffee": "playwright test tests/coffee-website.spec.js",
+    "test:coffee-headed": "playwright test tests/coffee-website.spec.js --headed",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report --port=9324",
+    "test:codegen": "playwright codegen",
+    "ui": "playwright test --ui",
+    "report": "playwright show-report --port=9324",
+    "report:open": "start playwright-report/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
